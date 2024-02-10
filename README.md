@@ -1,7 +1,8 @@
 # Overview
 
 I created this text-based RPG game in Java. I wanted to learn the basics of Object Oriented Programming in Java while doing something that I thought would be fun.
-This content was cool to create the story for a while using multiple classes and superclasses to create this system.
+This content was cool to create the story for a while using multiple classes and superclasses to create this system. The classes are used to determine the story,
+the game logic, the player, and character information. The Character class is a super class that I used to extend player.
 
 
 [Software Demo Video](http://youtube.link.goes.here)
@@ -19,6 +20,6 @@ for the calculations with the battles
 
 # Future Work
 
-- I need to create the enemies and calculate their damages
+- I need to create the enemy class and calculate their damages
 - I need to create the shop 
 - I need to finish working on the game loop to help it function better
