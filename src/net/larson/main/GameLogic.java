@@ -12,7 +12,7 @@ public class GameLogic {
     //random encounters
     public static String[] encounters = {"Battle", "Battle", "Battle", "Rest", "Rest"};
 
-    public static String[] enemies = {"Large Shadow", "Small Shadow", "Panther Shadow"}
+    public static String[] enemies = {"Large Shadow", "Small Shadow", "Panther Shadow"};
     //Story elements
     public static int place = 0, act = 1;
     public static String[] places = {"Mountains", "Plains"};
@@ -154,24 +154,23 @@ public class GameLogic {
     }
 
     //method to determine random encounter
-    public static void randomEncounter(){
-        int encounter = (int) (Math.random()* encounters.length);
+    //public static void randomEncounter(){
+      //  int encounter = (int) (Math.random()* encounters.length);
         //call the methods
-        if(encounters[encounter].equals("Battle")) {
+        //if(encounters[encounter].equals("Battle")) {
             //randomBattle();
-        }else if(encounters)[encounter].equals("Rest"){
+        //}else if(encounters)[encounter].equals("Rest"){
             //takeRest();
-        }else{
+        //}else{
             //shop();
-        }
-    }
+       // }
+   // }
     //method to continue journey
     public static void  continueJourney(){
         //check if act must be increased
         checkAct();
-        //check if game isnt in last act
-        if(act != 4)
-            randomEncounter();
+        //check if game isn't in last act
+        if(act != 4);
     }
 
     //print out important info
