@@ -8,9 +8,8 @@ This content was cool to create the story for a while using multiple classes and
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+I used the free version of IntelliJ Idea Community Version. I used Java to write this code and I imported the math library
+for the calculations with the battles
 
 # Useful Websites
 
